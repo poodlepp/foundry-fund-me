@@ -1,0 +1,3 @@
+FundMeTest:testFundFailsWithoutEnoughETH() (gas: 22995)
+FundMeTest:testPriceFeedSetCorrectly() (gas: 18078)
+InteractionsTest:testUserCanFundAndOwnerWithdraw() (gas: 583594)

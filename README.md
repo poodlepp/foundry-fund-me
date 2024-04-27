@@ -1,66 +1,29 @@
 ## Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**A practice project for the Foundry lessons. From the lessons on Foundry by Patrick.**
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
+## Major feature
 
-https://book.getfoundry.sh/
+-   **Fund**: Individual users invest.
+-   **Withdraw**: The contract owner uses it.
 
-## Usage
 
-### Build
+## What can u learn from the project?
 
-```shell
-$ forge build
-```
+-   **Forge**: Basic project structure.
+-   **Deploy**: Deploy the project by scripts.
+-   **Test**: Unit, intergration,fork,cheatcode.
+-   **Ceverage**
+-   **Gas optimize**
+-   **Code refactor**: Improve readability.
 
-### Test
 
-```shell
-$ forge test
-```
+## What can u start the project?
 
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+-   **forge build**
+-   **forge test**
+-   **forge coverage**
+-   **forge script**
+-   **forge snapshot**
